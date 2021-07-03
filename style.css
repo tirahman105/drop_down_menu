@@ -1,0 +1,48 @@
+.navbar{
+	background-color: black;
+	padding: 1% 7%;
+	text-align: center;
+}
+
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.navbar a:hover{
+	background-color: #0094FFFF;
+	transition: 0.3s;
+}
+
+.dropdown-container{
+	display: inline;
+	position: relative;
+}
+
+.dropdown-container:hover .dropdown-content{
+	display: block;
+
+}
+
+.dropdown-content{
+	position: absolute;
+	background-color: black;
+	top: 30px;
+	right: 0px;
+	text-align: left;
+	min-width: 100px;
+	display: none;
+
+}
+.dropdown-content a{
+	display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: #0094FFFF;
+	transition: 0.3s;
+}
